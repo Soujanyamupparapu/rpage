@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Page</title>
+  
+</head>
+<body>
+
+  <div class="container">
+   <center> <h2>Register</h2>
+    <form action="/submit_registration" method="post">
+      
+      <label for="first-name">First Name</label>
+      <input type="text" id="first-name" name="first-name" required placeholder="Enter your first name"><br><br>
+      
+      <label for="last-name">Last Name</label>
+      <input type="text" id="last-name" name="last-name" required placeholder="Enter your last name"><br><br>
+      
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required placeholder="Enter your email address"><br><br>
+      <label for="date of birth">date of birth:</label>
+     <input type="time"><br><br>
+      
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" required placeholder="Enter a password"><br><br>
+      
+      <label for="confirm-password">Confirm Password</label>
+      <input type="password" id="confirm-password" name="confirm-password" required placeholder="Confirm your password"><br><br>
+      <legend><h2>File upload</h2></legend>
+                <label for="upload profile picture">Upload profile picture:</label>
+                <input type="file">
+                <legend><h2>Preferences</h2></legend>
+                <label for="Technology Preferences">Technology PreferencesS:</label>
+                <input type="checkbox"></center>
+      
+      <center></centre><button type="submit">Register</button></center>
+    </form>
+  </div>
+
+</body>
+</html>
